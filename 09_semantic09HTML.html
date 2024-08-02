@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming blog</title>
+</head>
+
+<style>
+    body{
+
+        margin: 0;
+        padding: 0;
+
+    }
+
+    header{
+        padding: 10px;
+        background-color: #ffffff;
+        color: #000000;
+        text-align: center;
+    }
+
+    nav{
+        background-color: #242424;
+        padding: 10px;
+        margin: 10px;
+
+    }
+
+    nav a{
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+        margin-right: 10px;
+        display: inline-block;
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        max-width: 95%;
+        margin: 0 auto ;
+        padding: 20px;
+    }
+
+    article p{
+        text-align: justify;
+
+    }
+
+    main{
+        flex: 2;
+    }
+
+    article{
+        margin-bottom: 20px;
+        padding: 10px 20px;
+        border: 1px solid rgb(145,145,145);
+        margin-right: 10px;
+    }
+
+    aside{
+        flex: 1;
+        background-color: #c9c9c9;
+        padding: 10px;
+    }
+
+    footer{
+        background-color: #242424;
+        color: #fff;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+
+<body>
+
+    <header>
+        <h1>Programming Blog</h1>
+        <p> Web development  programming basics blog</p>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">HTML</a>
+            <a href="#">CSS</a>
+            <a href="#">JavaScript</a>
+            <a href="#">ReactJS</a>
+        </nav>
+    </header>
+
+    <div class="container">
+
+   
+    
+    <main>
+
+        <article>
+            <h2>HTML</h2>
+            <p>HTML stands for Hyper Text Markup Language . It is used to design the 
+                web pages .With the help of HTML,you can create a complete website 
+                structure .HTML is the combination of Hypertext and Markup language
+                defines the text document within the tag that defines the structure
+                of web pages 
+            </p>
+   
+        </article>
+        <article>
+            <h2>CSS</h2>
+            <p>CSS (Cascading Style Sheet) is used to styles web pages . Cascading Style Sheets
+                are fondly referred to as CSS.The reason for using this is to simplify the process
+                of making web pages presentable . It allows you to apply styles on the web pages.
+                More importantly , it enables you to do this independently of the HTML that makes 
+                up each web pages 
+
+            </p>
+        </article>
+
+        <article>
+            <h2>JavaScript</h2>
+            <p> JavaScript (JS) is the most popular lightweight , interpreted compiled language . It 
+                can be used for both Client and server side developments.JS also known as scripting 
+                language for web pages . This JavaScript Tutorial is designed to help both beginners 
+                and experienced proffesionals  master the fundamentals of  JavaScript and unleash their
+                creativity to build powerful applications. From basic syntax and data types to advanced
+                topics such as object orientedd programming and DOM manipulation 
+            </p>
+        </article>
+
+
+        <article>
+            <h2>React JS </h2>
+            <p>
+                React JS is a declarative , efficient and flexible JavaScript library for building user
+                interfaces. It is an open-source , component-based front-end library that is 
+                responsible only for view layer of the application ,ReactJS  in not a framework , its
+                just a library developed by Facebook to solve some problems that we were facing earlier 
+            </p>
+        </article>
+    </main>
+
+    <aside>
+        <h2> Recent posts </h2>
+        
+
+            <li> <a href="#">HTML</a></li>
+            <li> <a href="#">CSS</a></li>
+            <li> <a href="#">JavaScript</a></li>
+            <li> <a href="#">ReactJs</a></li>
+
+
+        
+
+    </aside>
+
+     </div>
+
+    <footer>
+        <p> &copy; 2024 Programming blog .All rights reserved</p>
+    </footer>
+
+
+</body>
+</html>
